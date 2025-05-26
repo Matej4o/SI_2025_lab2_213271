@@ -12,7 +12,7 @@
 - Број на компоненти (P): 1
 Формула: V(G) = E - N + 2P = 28 - 19 + 2 = **11**
 
-### Тест случаи:
+### Тест случаи - Every Statement:
 
 1. **allItems == null**  
    - Покрива throw за невалидна листа
@@ -22,7 +22,7 @@
    - Покрива throw при невалиден item
 
 
-### Тест случаи со повеќе услови:
+### Тест случаи - Multiple Conditions:
 
 if (item.getPrice() > 300 || item.getDiscount() > 0 || item.getQuantity() > 10)
 
